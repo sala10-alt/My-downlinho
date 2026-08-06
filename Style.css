@@ -1,0 +1,17 @@
+body {
+  font-family: -apple-system, sans-serif;
+  background: var(--tg-theme-bg-color, #ffffff);
+  color: var(--tg-theme-text-color, #000000);
+  text-align: center;
+  padding: 40px 20px;
+}
+.container { max-width: 400px; margin: auto; }
+button {
+  background: var(--tg-theme-button-color, #2481cc);
+  color: var(--tg-theme-button-text-color, #fff);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+}
